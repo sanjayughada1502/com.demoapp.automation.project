@@ -1,4 +1,4 @@
-package com.ufoframez.utilities;
+package com.ufofrademoappmez.utilities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

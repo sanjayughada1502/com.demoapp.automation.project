@@ -1,4 +1,4 @@
-package com.ufoframez.testBase;
+package com.demoapp.testBase;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -13,9 +13,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
-import com.ufoframez.drivers.DriverFactory;
-import com.ufoframez.listeners.Listerners_Implimentations;
-import com.ufoframez.utilities.PropertyUtilities;
+import com.demoapp.drivers.DriverFactory;
+import com.demoapp.listeners.Listerners_Implimentations;
+import com.demoapp.utilities.PropertyUtilities;
 
 @Listeners(Listerners_Implimentations.class)
 public class TestBase {

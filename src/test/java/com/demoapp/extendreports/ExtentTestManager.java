@@ -1,4 +1,4 @@
-package com.ufoframez.extendreports;
+package com.demoapp.extendreports;
 
 import com.aventstack.extentreports.ExtentTest;
 

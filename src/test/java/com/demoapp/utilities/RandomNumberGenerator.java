@@ -1,4 +1,4 @@
-package com.ufoframez.utilities;
+package com.demoapp.utilities;
 
 import java.util.Random;
 

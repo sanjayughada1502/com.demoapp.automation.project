@@ -1,4 +1,4 @@
-package com.ufoframez.utilities;
+package com.demoapp.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

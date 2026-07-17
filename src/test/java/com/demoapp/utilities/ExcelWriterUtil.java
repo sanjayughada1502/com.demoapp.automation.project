@@ -1,4 +1,4 @@
-package com.ufoframez.utilities;
+package com.demoapp.utilities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.ufoframez.extendreports.ExtentTestManager;
+import com.demoapp.extendreports.ExtentTestManager;
 
 public class ExcelWriterUtil {
 
