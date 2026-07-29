@@ -6,9 +6,11 @@ import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -42,7 +44,7 @@ public class TestBase {
 		logger.info("Database Connection Closed");
 	}
 
-	@BeforeMethod
+	@BeforeClass
 	public void setUp() throws IOException {
 		PropertyUtilities propertyUtilities = new PropertyUtilities();
 		String browser = propertyUtilities.getData("browser");
@@ -51,14 +53,19 @@ public class TestBase {
 		DriverFactory.getDriver().manage().window().maximize();
 		logger.info("Maximizing Browser window");
 		DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		String url = propertyUtilities.getData("dsaurl");
-		logger.info("getting url from properties");
-		logger.info("Navigating to URL");
-		DriverFactory.getDriver().get(url); // In case of Admin  use "Navigate to URL"
 
 	}
 
-	@AfterMethod
+	@BeforeMethod
+	public void navigateToURL() throws IOException {
+		PropertyUtilities propertyUtilities = new PropertyUtilities();
+		String url = propertyUtilities.getData("url");
+		logger.info("getting url from properties");
+		logger.info("Navigating to URL");
+		DriverFactory.getDriver().get(url);
+	}
+
+	@AfterClass
 	public void tearDown() throws IOException {
 		logger.info("Logging out from UFO Framez Site");
 		if (DriverFactory.getDriver() != null) {

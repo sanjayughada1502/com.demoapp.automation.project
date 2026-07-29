@@ -6,7 +6,7 @@
 		<!-- Log directory -->
 		<Property name="basepath">./logs</Property>
 		<!-- Log file name -->
-		<Property name="LOG_FILE_NAME">fnb-test-automation-log</Property>
+		<Property name="LOG_FILE_NAME">demo-app-automation-log</Property>
 		<!-- Log pattern -->
 		<Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level
 			%logger{36} - %msg%n</Property>
@@ -45,8 +45,8 @@
 	<!-- ================== Loggers ================== -->
 	<Loggers>
 		<Root level="info"> <!--Log Levels: All < Trace < Debug < Info < Warn < Error < Fatal < Off -->
-			<!--<AppenderRef ref="FileLogger" /> -->
-			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<!-- <AppenderRef ref="Console" /> -->
 		</Root>
 	</Loggers>
 

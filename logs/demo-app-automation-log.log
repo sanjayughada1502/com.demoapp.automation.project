@@ -1,0 +1,28 @@
+2026-07-29 11:06:24 [main] INFO 
+			com.demoapp.testScripts.TextField - Connecting to Database....
+2026-07-29 11:06:25 [main] INFO 
+			com.demoapp.testScripts.TextField - Database Connected Successfully
+2026-07-29 11:06:25 [main] INFO 
+			com.demoapp.testScripts.TextField - Getting browser name from Properties files
+2026-07-29 11:06:46 [main] INFO 
+			com.demoapp.testScripts.TextField - Maximizing Browser window
+2026-07-29 11:06:46 [main] INFO 
+			com.demoapp.testScripts.TextField - getting url from properties
+2026-07-29 11:06:46 [main] INFO 
+			com.demoapp.testScripts.TextField - Navigating to URL
+2026-07-29 11:06:57 [main] INFO 
+			com.demoapp.testScripts.TextField - getting url from properties
+2026-07-29 11:06:57 [main] INFO 
+			com.demoapp.testScripts.TextField - Navigating to URL
+2026-07-29 11:07:05 [main] INFO 
+			com.demoapp.testScripts.TextField - getting url from properties
+2026-07-29 11:07:05 [main] INFO 
+			com.demoapp.testScripts.TextField - Navigating to URL
+2026-07-29 11:07:16 [main] INFO 
+			com.demoapp.testScripts.TextField - Logging out from UFO Framez Site
+2026-07-29 11:07:16 [main] INFO 
+			com.demoapp.testScripts.TextField - closing Chrome browser
+2026-07-29 11:07:27 [main] INFO 
+			com.demoapp.testScripts.TextField - Closing Database Connection....
+2026-07-29 11:07:27 [main] INFO 
+			com.demoapp.testScripts.TextField - Database Connection Closed

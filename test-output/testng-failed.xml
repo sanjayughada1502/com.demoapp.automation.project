@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ufoframez.testScripts.Login">
+      <class name="com.demoapp.testScripts.TextField">
         <methods>
-          <include name="setUp"/>
           <include name="connectDatabase"/>
           <include name="tearDown"/>
-          <include name="LT01_Verify_Valid_DSALogin"/>
+          <include name="setUp"/>
+          <include name="TF01_Verify_Registration_Of_New_User"/>
           <include name="closeDatabase"/>
         </methods>
-      </class> <!-- com.ufoframez.testScripts.Login -->
+      </class> <!-- com.demoapp.testScripts.TextField -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

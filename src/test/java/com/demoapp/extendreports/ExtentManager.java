@@ -18,9 +18,9 @@ public class ExtentManager {
 
 			extent.attachReporter(spark);
 
-			extent.setSystemInfo("Tester:", "Sanjay");
-			extent.setSystemInfo("Framework:", "Selenium TestNG");
-			extent.setSystemInfo("Impact Fnb Site:", "testtheatrebusiness.impactexchange.com");
+			extent.setSystemInfo("Tester:", "Sanjayn Ughada");
+			extent.setSystemInfo("Framework:", "Selenium Hybrid Framework");
+			extent.setSystemInfo("Impact Fnb Site:", "https://demoapps.qspiders.com");
 
 		}
 
