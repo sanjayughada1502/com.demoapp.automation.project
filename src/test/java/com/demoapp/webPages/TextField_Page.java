@@ -52,6 +52,12 @@ public class TextField_Page {
 	@FindBy(xpath = "//article[@class='form_content absolute left-[16.2%] bg-[#e3e8e7] top-[1.3%] ml-[1.5%] h-[72.5%] w-[64.5%] flex gap-3']//div[@class='go2072408551']")
 	private WebElement SigninSuccessful_txt;
 
+	@FindBy(xpath = "//input[@title=\"Enter your Name\"]")
+	private WebElement name_tooltip;
+
+	@FindBy(xpath = "//input[@title=\"Enter Your Password\"]")
+	private WebElement password_tooltip;
+
 	// ------------ Getters ----------------------
 
 	public WebDriver getPagedriver() {
@@ -122,8 +128,17 @@ public class TextField_Page {
 	public WebElement getRegisterNow_link() {
 		return registerNow_link;
 	}
+	
 
 	// ------------ Action Methods -------------------------
+
+	public WebElement getName_tooltip() {
+		return name_tooltip;
+	}
+
+	public WebElement getPassword_tooltip() {
+		return password_tooltip;
+	}
 
 	public void registerNewUser(String name, String email, String password) {
 		name_tbx.clear();

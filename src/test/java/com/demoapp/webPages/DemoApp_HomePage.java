@@ -30,8 +30,10 @@ public class DemoApp_HomePage {
 	private WebElement checkBox_Menu;
 	@FindBy(xpath = "//section[normalize-space()='Radio Button']")
 	private WebElement radioButton_Menu;
-	@FindBy(xpath = "//a[normalize-space()='']")
+
+	@FindBy(xpath = "//section[normalize-space()='Image']")
 	private WebElement image_Menu;
+	
 	@FindBy(xpath = "//section[normalize-space()='Toggle']")
 	private WebElement toggle_Menu;
 	@FindBy(xpath = "//section[normalize-space()='Slider']")

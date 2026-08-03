@@ -48,7 +48,7 @@ public class Listerners_Implimentations implements ITestListener {
 		//Getting Current DateTime:
 		
 		LocalDateTime now = LocalDateTime.now();
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yy HH:mm:ss");
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMM-yy_HH-mm-ss");
 		String dateTime = now.format(formatter);
 		//System.out.println(dateTime);
 		

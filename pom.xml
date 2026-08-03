@@ -14,32 +14,38 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>4.18.1</version>
+        <version>4.46.0</version>
     </dependency>
+    
+    <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v150</artifactId>
+    <version>4.46.0</version>
+	</dependency>
 
-    <!-- TestNG (Test Framework) -->
+		<!-- TestNG (Test Framework) -->
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>7.9.0</version>
+        <version>7.12.0</version>
         <scope>test</scope>
     </dependency>
 
-    <!-- WebDriverManager (auto download browser drivers) -->
+		<!-- WebDriverManager (auto download browser drivers) -->
     <dependency>
         <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
         <version>5.8.0</version>
     </dependency>
 
-    <!-- Microsoft SQL Server JDBC Driver -->
+		<!-- Microsoft SQL Server JDBC Driver -->
     <dependency>
         <groupId>com.microsoft.sqlserver</groupId>
         <artifactId>mssql-jdbc</artifactId>
         <version>12.6.1.jre11</version>
     </dependency>
 
-    <!-- Apache POI (Excel read/write for test data) -->
+		<!-- Apache POI (Excel read/write for test data) -->
     <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi</artifactId>
@@ -52,7 +58,7 @@
         <version>5.2.5</version>
     </dependency>
 
-    <!-- Log4j (logging for framework) -->
+		<!-- Log4j (logging for framework) -->
     <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-api</artifactId>
@@ -65,35 +71,35 @@
         <version>2.23.1</version>
     </dependency>
 
-    <!-- Extent Reports (test reports) -->
+		<!-- Extent Reports (test reports) -->
     <dependency>
         <groupId>com.aventstack</groupId>
         <artifactId>extentreports</artifactId>
         <version>5.1.1</version>
     </dependency>
 
-    <!-- JSON Processing -->
+		<!-- JSON Processing -->
     <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>20240303</version>
     </dependency>
 
-    <!-- Apache Commons IO -->
+		<!-- Apache Commons IO -->
     <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>2.15.1</version>
     </dependency>
 
-    <!-- Apache Commons Lang -->
+		<!-- Apache Commons Lang -->
     <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
         <version>3.14.0</version>
     </dependency>
 
-    <!-- Lombok (optional but useful) -->
+		<!-- Lombok (optional but useful) -->
     <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
