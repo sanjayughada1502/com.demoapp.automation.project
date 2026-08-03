@@ -1,234 +1,239 @@
-#Project : Selenium Hybrid Automation Framework
+# 🚀 Selenium Hybrid Automation Framework
 
-1. A robust and scalable Hybrid Test Automation Framework developed using 
-Java, Selenium WebDriver 4, TestNG, and Maven. 
-2. The framework follows industry best practices such as Page Object Model (POM), ThreadLocal WebDriver, reusable utilities and detailed reporting.
-----------------------------------------------------------------------------------
+A robust and scalable **Hybrid Test Automation Framework** developed using **Java, Selenium WebDriver 4, TestNG, and Maven**.
 
-# Features
+The framework is designed by following industry best practices, including the **Page Object Model (POM)**, **ThreadLocal WebDriver**, reusable utility classes, centralized driver management, and comprehensive test reporting. It provides a modular, maintainable, and scalable solution for web application automation.
 
-- ✅ Selenium WebDriver 4
-- ✅ Java 21
-- ✅ TestNG Framework
-- ✅ Maven Project
-- ✅ Hybrid Framework Architecture
-- ✅ Page Object Model (POM)
-- ✅ ThreadLocal DriverFactory
-- ✅ Cross Browser Testing
-  - Chrome
-  - Edge
-  - Firefox
-- ✅ Parallel Excution
-- ✅ Explicit Waits
-- ✅ JavaScript Utilities
-- ✅ Screenshot Capture
-- ✅ Extent Reports
-- ✅ Log4j2 Logging
-- ✅ WebDriverListener for Element Highlighting
-- ✅ Reusable Utility Classes
-- ✅ Browser Configuration using ChromeOptions, EdgeOptions & FirefoxOptions
+---
 
-----------------------------------------------------------------------------------
+# ✨ Features
+
+* ✅ Selenium WebDriver 4
+* ✅ Java 21
+* ✅ TestNG Framework
+* ✅ Maven Build Management
+* ✅ Hybrid Automation Framework Architecture
+* ✅ Page Object Model (POM)
+* ✅ ThreadLocal DriverFactory
+* ✅ Cross-Browser Testing
+
+  * Chrome
+  * Edge
+  * Firefox
+* ✅ Parallel Test Execution
+* ✅ Explicit Waits
+* ✅ JavaScript Utility Methods
+* ✅ Screenshot Capture
+* ✅ Extent Reports
+* ✅ Log4j2 Logging
+* ✅ Selenium 4 WebDriverListener for Element Highlighting
+* ✅ Reusable Utility Classes
+* ✅ Browser Configuration using ChromeOptions, EdgeOptions, and FirefoxOptions
+
+---
 
 # 🛠 Tech Stack
 
-| Technology | Version |
-|------------|----------|
-| Java | 21 |
-| Selenium | 4.x |
-| TestNG | 7.x |
-| Maven | Latest |
-| ChromeDriver | Latest |
-| EdgeDriver | Latest |
-| FirefoxDriver | Latest |
-| Log4j2 | Latest |
-| Extent Reports | Latest |
+| Technology         | Version |
+| ------------------ | ------- |
+| Java               | 21      |
+| Selenium WebDriver | 4.x     |
+| TestNG             | 7.x     |
+| Maven              | Latest  |
+| ChromeDriver       | Latest  |
+| EdgeDriver         | Latest  |
+| FirefoxDriver      | Latest  |
+| Log4j2             | Latest  |
+| Extent Reports     | Latest  |
 
-----------------------------------------------------------------------------------
+---
 
 # 📂 Project Structure
 
-```
+```text
 SeleniumHybridFramework
 │
 ├── src
 │   ├── main
 │   │   └── java
 │   │       ├── drivers
-│   │       ├── utilities
 │   │       ├── listeners
+│   │       ├── pages
 │   │       ├── reports
-│   │       └── pages
+│   │       └── utilities
 │   │
 │   └── test
 │       └── java
-│           ├── testScripts
-│           └── testData
+│           ├── testData
+│           └── testScripts
 │
-├── screenshots
-├── reports
 ├── logs
-├── testng.xml
+├── reports
+├── screenshots
 ├── pom.xml
+├── testng.xml
 └── README.md
 ```
 
-----------------------------------------------------------------------------------
+---
 
 # 🏗 Framework Design
 
-The framework follows the Hybrid Framework architecture by combining:
+The framework follows a **Hybrid Automation Framework** by combining:
 
-- Page Object Model (POM)
-- Reusable Utilities
-- Driver Factory
-- Centralized Configuration
-- TestNG
-- Extent Reports
-- Logging
+* Page Object Model (POM)
+* ThreadLocal Driver Management
+* Driver Factory Design Pattern
+* Reusable Utility Classes
+* TestNG Framework
+* Extent Reports
+* Log4j2 Logging
+* Centralized Browser Configuration
 
-----------------------------------------------------------------------------------
+---
 
 # ⚙ Driver Management
 
-The framework uses a **ThreadLocal DriverFactory** for thread-safe WebDriver management.
+The framework uses a **ThreadLocal DriverFactory** to provide thread-safe WebDriver instances during parallel execution.
 
-Supported Browsers:
+### Supported Browsers
 
-- Chrome
-- Edge
-- Firefox
-- Chrome Headless
+* Chrome
+* Chrome (Headless)
+* Edge
+* Firefox
 
-----------------------------------------------------------------------------------
+---
 
 # ✨ Element Highlighting
 
-Implemented using Selenium 4 **WebDriverListener**.
+Element highlighting is implemented using **Selenium 4 WebDriverListener**.
 
-Every element is automatically highlighted before Selenium performs actions like:
+Every web element is automatically highlighted before Selenium performs actions such as:
 
-- Click
-- SendKeys
-- Clear
+* Click
+* Send Keys
+* Clear
 
-This greatly simplifies debugging during automation execution.
+This feature makes test execution easier to debug and helps identify the element currently being interacted with.
 
-----------------------------------------------------------------------------------
+---
 
 # 📊 Reporting
 
-The framework automatically generates:
+The framework automatically generates detailed **Extent Reports**, including:
 
-- HTML Extent Reports
-- Execution Status
-- Pass/Fail Statistics
-- Screenshots for Failed Tests
-- Execution Time
+* Test Execution Status
+* Pass/Fail Statistics
+* Execution Time
+* Failure Screenshots
+* Detailed Test Logs
 
-----------------------------------------------------------------------------------
+---
 
 # 📝 Logging
 
 Logging is implemented using **Log4j2**.
 
-Logs include:
+The framework records:
 
-- Browser Launch
-- Test Execution
-- Pass/Fail Status
-- Exceptions
-- Debug Information
+* Browser Launch Details
+* Test Execution Flow
+* Pass/Fail Status
+* Exceptions
+* Debug Information
 
-----------------------------------------------------------------------------------
+---
 
 # ▶ Running the Tests
 
-Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SeleniumHybridFramework.git
+git clone https://github.com/your-username/SeleniumHybridFramework.git
 ```
 
-Navigate to project
+### Navigate to the Project
 
 ```bash
 cd SeleniumHybridFramework
 ```
 
-Run tests
+### Execute All Tests
 
 ```bash
 mvn clean test
 ```
 
-Or execute using TestNG Suite
+### Execute Using TestNG Suite
 
-```
+```bash
 testng.xml
 ```
 
-----------------------------------------------------------------------------------
+---
 
-# 🌐 Cross Browser Execution
+# 🌐 Cross-Browser Execution
 
-The framework supports execution on
+The framework supports execution on:
 
-- Chrome
-- Edge
-- Firefox
+* Chrome
+* Chrome Headless
+* Edge
+* Firefox
 
-Browser can be selected from DriverFactory or configuration.
+The browser can be selected through the DriverFactory or configuration settings.
 
-----------------------------------------------------------------------------------
+---
 
-# 📸 Sample Framework Features
+# 🚀 Framework Highlights
 
-✔ Page Object Model
+* ✔ Hybrid Automation Framework
+* ✔ Java 21
+* ✔ Selenium WebDriver 4
+* ✔ TestNG
+* ✔ Maven
+* ✔ Page Object Model (POM)
+* ✔ ThreadLocal DriverFactory
+* ✔ Parallel Test Execution
+* ✔ Cross-Browser Testing
+* ✔ Explicit Waits
+* ✔ JavaScript Executor
+* ✔ Screenshot Utility
+* ✔ Extent Reports
+* ✔ Log4j2 Logging
+* ✔ Selenium 4 WebDriverListener
+* ✔ Reusable Utility Classes
 
-✔ ThreadLocal DriverFactory
-
-✔ Selenium 4
-
-✔ TestNG
-
-✔ Extent Reports
-
-✔ Screenshot Utility
-
-✔ Log4j2
-
-✔ Cross Browser Testing
-
-✔ WebDriverListener
-
-✔ JavaScript Executor
-
-✔ Explicit Waits
-
-✔ Reusable Utilities
-
-----------------------------------------------------------------------------------
+---
 
 # 📈 Future Enhancements
 
-- Parallel Execution
-- Data Driven Testing using Excel
-- Database Validation
-- API Testing Integration
-- Jenkins CI/CD Integration
-- Docker Execution
-- Selenium Grid
-- Allure Reporting
-- GitHub Actions Workflow
+* Data-Driven Testing using Excel
+* API Testing Integration (REST Assured)
+* Database Validation
+* Jenkins CI/CD Integration
+* Docker Support
+* Selenium Grid
+* GitHub Actions
+* Allure Reports
 
-----------------------------------------------------------------------------------
+---
 
 # 👨‍💻 Author
 
-Name: Sanjay Hiraman Ughada
-Role: Quality Assurance Executive
-Company: UFO Movies India Limited, Andheri, Mumbai
-Since: Apr-2025 - Present
-Email: sanjay.ughada.123@gmail.com
-Mobile No.: +91 8208124249
+**Sanjay Hiraman Ughada**
+
+**Role:** Quality Assurance Engineer
+
+📧 Email: [sanjay.ughada.123@gmail.com](mailto:sanjay.ughada.123@gmail.com)
+
+📱 Mobile: +91 8208124249
+
+🔗 GitHub: https://github.com/your-username
+
+🔗 LinkedIn: https://www.linkedin.com/in/your-profile
+
+---
+
+⭐ **If you found this project helpful, please consider giving it a Star!**
