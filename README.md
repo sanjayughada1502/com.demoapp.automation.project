@@ -247,4 +247,3 @@ The browser can be selected through the DriverFactory or configuration settings.
 
 ---
 
-⭐ **If you found this project helpful, please consider giving it a Star!**
