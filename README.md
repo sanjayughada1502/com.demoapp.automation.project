@@ -54,22 +54,61 @@ The framework is designed by following industry best practices, including the **
 SeleniumHybridFramework
 │
 ├── src
-│   ├── main
-│   │   └── java
-│   │       ├── drivers
-│   │       ├── listeners
-│   │       ├── pages
-│   │       ├── reports
-│   │       └── utilities
+│   ├── test
+│   │   ├── java
+│   │   │
+│   │   ├── com.demoapp
+│   │   │   │
+│   │   │   ├── drivers
+│   │   │   │     └── DriverFactory.java
+│   │   │   │
+│   │   │   ├── pages
+│   │   │   │     ├── HomePage.java
+│   │   │   │     ├── LoginPage.java
+│   │   │   │     └── ...
+│   │   │   │
+│   │   │   ├── tests
+│   │   │   │     ├── LoginTest.java
+│   │   │   │     ├── ImageTest.java
+│   │   │   │     └── ...
+│   │   │   │
+│   │   │   ├── base
+│   │   │   │     └── TestBase.java
+│   │   │   │
+│   │   │   ├── listeners
+│   │   │   │     ├── HighlightListener.java
+│   │   │   │     └── TestListener.java
+│   │   │   │
+│   │   │   ├── reports
+│   │   │   │     ├── ExtentManager.java
+│   │   │   │     ├── ExtentReport.java
+│   │   │   │     └── ExtentTestManager.java
+│   │   │   │
+│   │   │   ├── utilities
+│   │   │   │     ├── WaitUtils.java
+│   │   │   │     ├── JSUtils.java
+│   │   │   │     ├── ScreenshotUtils.java
+│   │   │   │     ├── ExcelUtils.java
+│   │   │   │     ├── ImageUtils.java
+│   │   │   │     ├── ConfigReader.java
+│   │   │   │     └── CommonUtils.java
+│   │   │   │
+│   │   │   └── database
+│   │   │         └── DBConnection.java
+│   │   │
+│   │   └── resources
+│   │         ├── config.properties
+│   │         ├── log4j2.xml
+│   │         ├── testdata
+│   │         └── images
 │   │
-│   └── test
-│       └── java
-│           ├── testData
-│           └── testScripts
+│   └──
 │
-├── logs
 ├── reports
 ├── screenshots
+├── logs
+├── target
+├── test-output
 ├── pom.xml
 ├── testng.xml
 └── README.md
@@ -142,34 +181,6 @@ The framework records:
 * Pass/Fail Status
 * Exceptions
 * Debug Information
-
----
-
-# ▶ Running the Tests
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/SeleniumHybridFramework.git
-```
-
-### Navigate to the Project
-
-```bash
-cd SeleniumHybridFramework
-```
-
-### Execute All Tests
-
-```bash
-mvn clean test
-```
-
-### Execute Using TestNG Suite
-
-```bash
-testng.xml
-```
 
 ---
 
