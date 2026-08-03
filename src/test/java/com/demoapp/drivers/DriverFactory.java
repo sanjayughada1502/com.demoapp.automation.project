@@ -3,6 +3,9 @@ package com.demoapp.drivers;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+
+import com.demoapp.listeners.HighlightListener;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -85,10 +88,22 @@ public class DriverFactory {
 			throw new RuntimeException("Invalid Browser : " + browser);
 		}
 
+//		webDriver.manage().window().maximize();
+//		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//		driver.set(webDriver);
+//		return webDriver;
+		
 		webDriver.manage().window().maximize();
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.set(webDriver);
-		return webDriver;
+
+		WebDriver decoratedDriver =
+		        new EventFiringDecorator(new HighlightListener(webDriver))
+		                .decorate(webDriver);
+
+		driver.set(decoratedDriver);
+
+		return decoratedDriver;
+		
 	}
 
 	/**

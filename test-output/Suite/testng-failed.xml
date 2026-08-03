@@ -3,16 +3,22 @@
 <suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="Regression_Suite(failed)">
     <classes>
-      <class name="testtheatrebusiness.testScripts.RawMaterial_Master">
+      <class name="com.demoapp.testScripts.TextField">
         <methods>
-          <include name="RW_02_Verify_RawMaterial_Deletion"/>
-          <include name="RW_01_Verify_RawMaterial_Creation"/>
-          <include name="logoutFromFnBTestSite"/>
-          <include name="loginToFnBTestSite"/>
-          <include name="closeDatabase"/>
+          <include name="TF06_Verify_Login_With_Valid_Credentials_With_ToolTip"/>
+          <include name="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders"/>
           <include name="connectDatabase"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TF01_Verify_Registration_Of_New_User"/>
+          <include name="TF02_Verify_Login_With_Valid_Credentials"/>
+          <include name="TF07_Verify_SQLInjection_In_Name_Field"/>
+          <include name="navigateToURL"/>
+          <include name="TF03_Verify_Login_With_Invalid_Credentials"/>
+          <include name="closeDatabase"/>
+          <include name="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip"/>
         </methods>
-      </class> <!-- testtheatrebusiness.testScripts.RawMaterial_Master -->
+      </class> <!-- com.demoapp.testScripts.TextField -->
     </classes>
   </test> <!-- Regression_Suite(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -14,7 +14,7 @@ public class PropertyUtilities {
 	 */
 	public String getData(String key) throws IOException {
 		FileInputStream file = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\test\\resources\\commondata.property");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\commondata.properties");
 		Properties p = new Properties();
 		p.load(file);
 		String data = p.getProperty(key);

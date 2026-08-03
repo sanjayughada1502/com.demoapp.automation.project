@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ufoframez.testScripts.Login">
+      <class name="com.demoapp.testScripts.SlideBar">
         <methods>
-          <include name="setUp"/>
           <include name="connectDatabase"/>
           <include name="tearDown"/>
-          <include name="LT01_Verify_Valid_DSALogin"/>
+          <include name="setUp"/>
+          <include name="navigateToURL"/>
           <include name="closeDatabase"/>
+          <include name="SB01_Move_Slidebar_Using_Actions_Class"/>
         </methods>
-      </class> <!-- com.ufoframez.testScripts.Login -->
+      </class> <!-- com.demoapp.testScripts.SlideBar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
