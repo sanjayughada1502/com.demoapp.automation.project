@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoapp.testScripts.SlideBar">
+      <class name="com.demoapp.testScripts.Dropdown">
         <methods>
           <include name="connectDatabase"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="navigateToURL"/>
+          <include name="DP01_Select_Values_From_Single_Select_Dropdown"/>
           <include name="closeDatabase"/>
-          <include name="SB01_Move_Slidebar_Using_Actions_Class"/>
         </methods>
-      </class> <!-- com.demoapp.testScripts.SlideBar -->
+      </class> <!-- com.demoapp.testScripts.Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

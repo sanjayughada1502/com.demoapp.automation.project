@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-03T18:32:42 IST" name="Default suite" finished-at="2026-08-03T18:33:08 IST" duration-ms="26200">
+  <suite started-at="2026-08-04T18:31:09 IST" name="Default suite" finished-at="2026-08-04T18:31:54 IST" duration-ms="45549">
     <groups>
+      <group name="Functional">
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5471388b]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5471388b]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5471388b]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-08-03T18:32:42 IST" name="Default test" finished-at="2026-08-03T18:33:08 IST" duration-ms="26200">
-      <class name="com.demoapp.testScripts.SlideBar">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:39 IST" name="connectDatabase" finished-at="2026-08-03T18:32:42 IST" duration-ms="2834" status="PASS">
+    <test started-at="2026-08-04T18:31:09 IST" name="Default test" finished-at="2026-08-04T18:31:54 IST" duration-ms="45549">
+      <class name="com.demoapp.testScripts.Dropdown">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:06 IST" name="connectDatabase" finished-at="2026-08-04T18:31:09 IST" duration-ms="3161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:42 IST" name="setUp" finished-at="2026-08-03T18:32:53 IST" duration-ms="11272" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:09 IST" name="setUp" finished-at="2026-08-04T18:31:25 IST" duration-ms="15612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:53 IST" name="navigateToURL" finished-at="2026-08-03T18:32:54 IST" duration-ms="1425" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:25 IST" name="navigateToURL" finished-at="2026-08-04T18:31:28 IST" duration-ms="3010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="SB01_Move_Slidebar_Using_Actions_Class()[pri:1, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:54 IST" name="SB01_Move_Slidebar_Using_Actions_Class" finished-at="2026-08-03T18:32:57 IST" duration-ms="2657" status="PASS">
+        <test-method signature="DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:28 IST" name="DP01_Select_Values_From_Single_Select_Dropdown" finished-at="2026-08-04T18:31:53 IST" duration-ms="25648" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SB01_Move_Slidebar_Using_Actions_Class -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:57 IST" name="navigateToURL" finished-at="2026-08-03T18:32:57 IST" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method signature="SB02_Move_Slidebar_Using_Click_and_Hold()[pri:2, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:57 IST" name="SB02_Move_Slidebar_Using_Click_and_Hold" finished-at="2026-08-03T18:32:59 IST" duration-ms="1218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SB02_Move_Slidebar_Using_Click_and_Hold -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:59 IST" name="navigateToURL" finished-at="2026-08-03T18:32:59 IST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToURL -->
-        <test-method signature="SB03_Move_Slidebar_Using_Keyboard_Keys()[pri:3, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:32:59 IST" name="SB03_Move_Slidebar_Using_Keyboard_Keys" finished-at="2026-08-03T18:33:02 IST" duration-ms="3373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SB03_Move_Slidebar_Using_Keyboard_Keys -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:33:02 IST" name="tearDown" finished-at="2026-08-03T18:33:08 IST" duration-ms="5744" status="PASS">
+        </test-method> <!-- DP01_Select_Values_From_Single_Select_Dropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:53 IST" name="tearDown" finished-at="2026-08-04T18:31:54 IST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.demoapp.testScripts.SlideBar@142eef62]" started-at="2026-08-03T18:33:10 IST" name="closeDatabase" finished-at="2026-08-03T18:33:10 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.demoapp.testScripts.Dropdown@5471388b]" started-at="2026-08-04T18:31:56 IST" name="closeDatabase" finished-at="2026-08-04T18:31:56 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
-      </class> <!-- com.demoapp.testScripts.SlideBar -->
+      </class> <!-- com.demoapp.testScripts.Dropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
