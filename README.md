@@ -235,15 +235,15 @@ The browser can be selected through the DriverFactory or configuration settings.
 
 **Sanjay Hiraman Ughada**
 
-**Role:** Quality Assurance Engineer
+**Role:** Quality Assurance Executive
 
 📧 Email: [sanjay.ughada.123@gmail.com](mailto:sanjay.ughada.123@gmail.com)
 
 📱 Mobile: +91 8208124249
 
-🔗 GitHub: https://github.com/your-username
+🔗 GitHub: https://github.com/sanjayughada1502
 
-🔗 LinkedIn: https://www.linkedin.com/in/your-profile
+🔗 LinkedIn: https://www.linkedin.com/in/sanjay-ughada 
 
 ---
 
