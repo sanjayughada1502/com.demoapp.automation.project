@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoapp.testScripts.SlideBar">
+      <class name="com.demoapp.testScripts.WebTable">
         <methods>
-          <include name="connectDatabase"/>
           <include name="tearDown"/>
+          <include name="connectDatabase"/>
           <include name="setUp"/>
           <include name="navigateToURL"/>
           <include name="closeDatabase"/>
-          <include name="SB01_Move_Slidebar_Using_Actions_Class"/>
+          <include name="WT004_Verify_data_in_a_specific_row"/>
         </methods>
-      </class> <!-- com.demoapp.testScripts.SlideBar -->
+      </class> <!-- com.demoapp.testScripts.WebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
