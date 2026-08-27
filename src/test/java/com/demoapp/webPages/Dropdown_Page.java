@@ -71,19 +71,19 @@ public class Dropdown_Page {
 	@FindBy(xpath = "//button[normalize-space()='Add']")
 	private WebElement add_btn;
 
-	@FindBy(xpath = "//div[contains(@class,'css-t3ipsp-control')]//div[contains(@class,'css-19bb58m')]")
+	@FindBy(id = "react-select-2-input")
 	private WebElement Search_Phone_Mdpdwn;
-	@FindBy(xpath = "//input[@id='selectPhone']")
-	private WebElement enterYourNumber_Mdpdwn;
-	@FindBy(xpath = "//div[@class=' css-t3ipsp-control']//div[@class=' css-19bb58m']")
+	@FindBy(id = "selectPhone")
+	private WebElement enterYourNumber_tbx;
+	@FindBy(id = "react-select-3-input")
 	private WebElement selectGender_Mdpdwn;
-	@FindBy(xpath = "//div[contains(@class,'css-t3ipsp-control')]//div[contains(@class,'css-19bb58m')]")
+	@FindBy(id = "react-select-4-input")
 	private WebElement Country_Mdpdwn;
-	@FindBy(xpath = "//div[contains(@class,'css-t3ipsp-control')]//div[contains(@class,'css-hlgwow')]")
+	@FindBy(id = "react-select-5-input")
 	private WebElement State_Mdpdwn;
-	@FindBy(xpath = "//div[contains(@class,'css-t3ipsp-control')]//div[contains(@class,'css-19bb58m')]")
+	@FindBy(id = "react-select-6-input")
 	private WebElement City_Mdpdwn;
-	@FindBy(xpath = "//div[contains(@class,'css-t3ipsp-control')]//div[contains(@class,'css-hlgwow')]")
+	@FindBy(id = "react-select-7-input")
 	private WebElement Qty__Mdpdwn;
 
 	public WebDriver getPagedriver() {
@@ -187,7 +187,7 @@ public class Dropdown_Page {
 	}
 
 	public WebElement getEnterYourNumber_Mdpdwn() {
-		return enterYourNumber_Mdpdwn;
+		return enterYourNumber_tbx;
 	}
 
 	public WebElement getSelectGender_Mdpdwn() {
