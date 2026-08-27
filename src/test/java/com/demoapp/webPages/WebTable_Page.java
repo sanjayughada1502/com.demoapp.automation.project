@@ -123,7 +123,7 @@ public class WebTable_Page {
 		int rowCount = rows.size();
 		return rowCount;
 	}
-	
+
 	public int getPurchasedItemsTables_columnCount() {
 		List<WebElement> column = DriverFactory.getDriver()
 				.findElements(By.xpath("//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div/table/thead/tr/th"));
@@ -141,6 +141,21 @@ public class WebTable_Page {
 			raws_data.add(data);
 		}
 		return raws_data;
+	}
+
+	public List<String> getItemPrice_from_webTable() {
+		List<String> rowdata = getPurchasedItemsTables_rows_Data();
+		List<String> prices = new ArrayList<>();
+
+		for (int i = 1; i <= rowdata.size(); i++) {
+
+			String text = DriverFactory.getDriver().findElement(By
+					.xpath("//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div/table/tbody/tr[" + i + "]/td[4]"))
+					.getText();
+			prices.add(text);
+
+		}
+		return prices;
 	}
 
 }

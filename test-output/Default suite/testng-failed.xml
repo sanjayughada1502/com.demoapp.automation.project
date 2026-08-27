@@ -5,12 +5,12 @@
     <classes>
       <class name="com.demoapp.testScripts.WebTable">
         <methods>
+          <include name="WT005_Verify_Item_Price_in_Table"/>
           <include name="tearDown"/>
           <include name="connectDatabase"/>
           <include name="setUp"/>
           <include name="navigateToURL"/>
           <include name="closeDatabase"/>
-          <include name="WT004_Verify_data_in_a_specific_row"/>
         </methods>
       </class> <!-- com.demoapp.testScripts.WebTable -->
     </classes>
