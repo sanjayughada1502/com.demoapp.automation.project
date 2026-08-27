@@ -13,6 +13,7 @@ import com.demoapp.drivers.DriverFactory;
 import com.demoapp.extendreports.ExtentTestManager;
 import com.demoapp.listeners.Listerners_Implimentations;
 import com.demoapp.testBase.TestBase;
+import com.demoapp.utilities.GetDataFromExcelSheet;
 import com.demoapp.webPages.DemoApp_HomePage;
 import com.demoapp.webPages.WebTable_Page;
 
@@ -117,28 +118,62 @@ public class WebTable extends TestBase {
 			case 0:
 				// rowData.get(i).toString().contains("Levis Shirt");
 				ExtentTestManager.getTest().info("Validating Row 1 Data");
-				asserts.assertTrue(rowData.get(i).toString().contains("Levis Shirt"));
+				String value1 = rowData.get(i);
+				String expectedRowdata = GetDataFromExcelSheet.getCellData("./test-data/demoapp-test-data.xlsx", "WebTable", 1, 2);
+				asserts.assertTrue(value1.contains(expectedRowdata));
 				continue;
 			case 1:
 				// rowData.get(i).toString().contains("Levis Shirt");
 				ExtentTestManager.getTest().info("Validating Row 2 Data");
-				asserts.assertTrue(rowData.get(i).toString().contains("SAMSUNG Galaxy"));
+				String value2 = rowData.get(i);
+				String expectedRowdata2 = GetDataFromExcelSheet.getCellData("./test-data/demoapp-test-data.xlsx", "WebTable", 2, 2);
+				asserts.assertTrue(value2.contains(expectedRowdata2));
 				continue;
 			case 2:
 				// rowData.get(i).toString().contains("Levis Shirt");
 				ExtentTestManager.getTest().info("Validating Row 3 Data");
-				asserts.assertTrue(rowData.get(i).toString().contains("APPLEIPhone"));
+				String value3 = rowData.get(i);
+				String expectedRowdata3 = GetDataFromExcelSheet.getCellData("./test-data/demoapp-test-data.xlsx", "WebTable", 3, 2);
+				asserts.assertTrue(value3.contains(expectedRowdata3));
 				continue;
 			case 3:
 				// rowData.get(i).toString().contains("Levis Shirt");
 				ExtentTestManager.getTest().info("Validating Row 4 Data");
-				asserts.assertTrue(rowData.get(i).toString().contains("APPLEIPhone"));
+				String value4 = rowData.get(i);
+				String expectedRowdata4 = GetDataFromExcelSheet.getCellData("./test-data/demoapp-test-data.xlsx", "WebTable", 4, 2);
+				asserts.assertTrue(value4.contains(expectedRowdata4));
 				continue;
 			}
 
-			asserts.fail();
 			break;
 		}
 		asserts.assertAll();
+	}
+	
+	
+	@Test(priority = 5, groups = { "Smoke" , "Functional"})
+	public void WT005_Verify_Item_Price_in_Table() {
+		// Item Price should be as Expected as per the Excel Sheet
+		DemoApp_HomePage home = new DemoApp_HomePage();
+		home.getWebTable_Menu().click();
+		ExtentTestManager.getTest().info("Clicked on WebTable Menu");
+		WebTable_Page page = new WebTable_Page();
+		page.getStaticWebTable().click();
+		ExtentTestManager.getTest().info("Clicked on Static Web Table Option Menu");
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOf(page.getPurchasedItems_Tab()));
+		SoftAssert asserts = new SoftAssert();
+		ExtentTestManager.getTest().info("Getting Item Price From WebTable");
+		List<String> item_prices = page.getItemPrice_from_webTable();
+		int row = 1;
+		for(String value : item_prices) {
+			System.out.println(value);
+			logger.info("Fetching Expected Price from Excel Sheet");
+			String expectedRowdata = GetDataFromExcelSheet.getCellData("./test-data/demoapp-test-data.xlsx", "WebTable", row, 3);
+			System.out.println(expectedRowdata);
+			ExtentTestManager.getTest().info("Validating Actual and Expected Price");
+			asserts.assertEquals(value, expectedRowdata);
+			row++;
+		}
 	}
 }
