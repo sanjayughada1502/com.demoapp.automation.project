@@ -48,10 +48,28 @@ public class WebTable_Page {
 	@FindBy(xpath = "//th[normalize-space()='Price']")
 	private WebElement price_header;
 
+	//Favourite Items dynamic Price locators
+	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[1]/th/../td[4]")
+	private WebElement dynamic_Levis_Shirt_price_txt;
+	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[2]/th/../td[4]")
+	private WebElement dynamic_Samsung_Galaxy_price_txt;
+	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[3]/th/../td[4]")
+	private WebElement dynamic_Apple_iPhone_price_txt;
+	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[4]/th/../td[4]")
+	private WebElement dynamic_HP_Envy_price_txt;
+	@FindBy(xpath = "//section[contains(text(),'Favourite Items')]")
+	private WebElement Faverate_Items_Tab;
+	
 	// getters
+	
+	
 
 	public WebDriver getPagedriver() {
 		return pagedriver;
+	}
+
+	public WebElement getFaverate_Items_Tab() {
+		return Faverate_Items_Tab;
 	}
 
 	public WebElement getStaticWebTable() {
@@ -101,7 +119,26 @@ public class WebTable_Page {
 	public WebElement getPrice_header() {
 		return price_header;
 	}
+	
+	
+	public WebElement getDynamic_Levis_Shirt_price_txt() {
+		return dynamic_Levis_Shirt_price_txt;
+	}
 
+	public WebElement getDynamic_Samsung_Galaxy_price_txt() {
+		return dynamic_Samsung_Galaxy_price_txt;
+	}
+
+	public WebElement getDynamic_Apple_iPhone_price_txt() {
+		return dynamic_Apple_iPhone_price_txt;
+	}
+
+	public WebElement getDynamic_HP_Envy_price_txt() {
+		return dynamic_HP_Envy_price_txt;
+	}
+
+	
+	
 	// Action Methods
 
 	public List<String> getPurchasedItemsTables_headerNames() {
