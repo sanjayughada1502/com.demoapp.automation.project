@@ -1,43 +1,476 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="27" passed="24" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-31T17:21:19 IST" name="Default suite" finished-at="2026-08-31T17:22:17 IST" duration-ms="57822">
+  <suite started-at="2026-09-07T19:01:52 IST" name="Parallel Regression Suite" finished-at="2026-09-07T19:06:44 IST" duration-ms="292142">
     <groups>
       <group name="Functional">
-        <method signature="WebTable.WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@510f3d34]" name="WT006_Verify_Dynamic_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="Image.IM02_Verify_Weather_Image_Is_Clickable()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" name="IM02_Verify_Weather_Image_Is_Clickable" class="com.demoapp.testScripts.Image"/>
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="TextField.TF01_Verify_Registration_Of_New_User()[pri:1, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF01_Verify_Registration_Of_New_User" class="com.demoapp.testScripts.TextField"/>
+        <method signature="Dropdown.DP02_Select_Values_From_Multi_Select_Dropdown()[pri:2, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP02_Select_Values_From_Multi_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="PopUps.PO002_Verify_Item_Deletion()[pri:2, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" name="PO002_Verify_Item_Deletion" class="com.demoapp.testScripts.PopUps"/>
+        <method signature="TextField.TF02_Verify_Login_With_Valid_Credentials()[pri:2, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF02_Verify_Login_With_Valid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="Dropdown.DP03_Select_Values_By_Searching_In_Dropdown()[pri:3, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP03_Select_Values_By_Searching_In_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="PopUps.PO003_Handling_of_Prompt_Popup_for_Item_Deletion()[pri:3, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" name="PO003_Handling_of_Prompt_Popup_for_Item_Deletion" class="com.demoapp.testScripts.PopUps"/>
+        <method signature="TextField.TF03_Verify_Login_With_Invalid_Credentials()[pri:3, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF03_Verify_Login_With_Invalid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="PopUps.PO004_Handling_of_Hidden_Division_Popup()[pri:4, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" name="PO004_Handling_of_Hidden_Division_Popup" class="com.demoapp.testScripts.PopUps"/>
+        <method signature="TextField.TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders()[pri:4, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF05_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:5, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT005_Verify_Item_Price_in_Table()[pri:5, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT005_Verify_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="WebTable.WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT006_Verify_Dynamic_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="WebTable.WT007_Verify_AddToFaverate_Functionality()[pri:7, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT007_Verify_AddToFaverate_Functionality" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="WebTable.WT008_Verify_AddToFaverate_Functionality()[pri:8, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT008_Verify_AddToFaverate_Functionality" class="com.demoapp.testScripts.WebTable"/>
       </group> <!-- Functional -->
+      <group name="Negative">
+        <method signature="TextField.TF06_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:6, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF06_Verify_Login_With_Valid_Credentials_With_ToolTip" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF07_Verify_SQLInjection_In_Name_Field()[pri:7, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF07_Verify_SQLInjection_In_Name_Field" class="com.demoapp.testScripts.TextField"/>
+      </group> <!-- Negative -->
+      <group name="SQLInjection">
+        <method signature="TextField.TF07_Verify_SQLInjection_In_Name_Field()[pri:7, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF07_Verify_SQLInjection_In_Name_Field" class="com.demoapp.testScripts.TextField"/>
+      </group> <!-- SQLInjection -->
       <group name="Regression">
-        <method signature="WebTable.WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@510f3d34]" name="WT006_Verify_Dynamic_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="TextField.TF01_Verify_Registration_Of_New_User()[pri:1, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF01_Verify_Registration_Of_New_User" class="com.demoapp.testScripts.TextField"/>
+        <method signature="Dropdown.DP02_Select_Values_From_Multi_Select_Dropdown()[pri:2, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP02_Select_Values_From_Multi_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="Dropdown.DP03_Select_Values_By_Searching_In_Dropdown()[pri:3, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP03_Select_Values_By_Searching_In_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="WebTable.WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT006_Verify_Dynamic_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
       </group> <!-- Regression -->
+      <group name="Exploratory">
+        <method signature="TextField.TF06_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:6, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF06_Verify_Login_With_Valid_Credentials_With_ToolTip" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF07_Verify_SQLInjection_In_Name_Field()[pri:7, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF07_Verify_SQLInjection_In_Name_Field" class="com.demoapp.testScripts.TextField"/>
+      </group> <!-- Exploratory -->
+      <group name="Login">
+        <method signature="TextField.TF01_Verify_Registration_Of_New_User()[pri:1, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF01_Verify_Registration_Of_New_User" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF02_Verify_Login_With_Valid_Credentials()[pri:2, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF02_Verify_Login_With_Valid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF03_Verify_Login_With_Invalid_Credentials()[pri:3, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF03_Verify_Login_With_Invalid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders()[pri:4, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders" class="com.demoapp.testScripts.TextField"/>
+        <method signature="TextField.TF05_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:5, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip" class="com.demoapp.testScripts.TextField"/>
+      </group> <!-- Login -->
+      <group name="Smoke">
+        <method signature="Dropdown.DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP01_Select_Values_From_Single_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="PopUps.PO001_Verify_JavaScript_Popup_Alert_For_Item_Deletion()[pri:1, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" name="PO001_Verify_JavaScript_Popup_Alert_For_Item_Deletion" class="com.demoapp.testScripts.PopUps"/>
+        <method signature="TextField.TF01_Verify_Registration_Of_New_User()[pri:1, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF01_Verify_Registration_Of_New_User" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT001_Verify_WebTable_is_displayed()[pri:1, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT001_Verify_WebTable_is_displayed" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="Dropdown.DP02_Select_Values_From_Multi_Select_Dropdown()[pri:2, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP02_Select_Values_From_Multi_Select_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="TextField.TF02_Verify_Login_With_Valid_Credentials()[pri:2, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF02_Verify_Login_With_Valid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT002_Verify_total_number_of_rows()[pri:2, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT002_Verify_total_number_of_rows" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="Dropdown.DP03_Select_Values_By_Searching_In_Dropdown()[pri:3, instance:com.demoapp.testScripts.Dropdown@5aebe890]" name="DP03_Select_Values_By_Searching_In_Dropdown" class="com.demoapp.testScripts.Dropdown"/>
+        <method signature="TextField.TF03_Verify_Login_With_Invalid_Credentials()[pri:3, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF03_Verify_Login_With_Invalid_Credentials" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT003_Verify_total_number_of_columns()[pri:3, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT003_Verify_total_number_of_columns" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="TextField.TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders()[pri:4, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT004_Verify_data_in_a_specific_row()[pri:4, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT004_Verify_data_in_a_specific_row" class="com.demoapp.testScripts.WebTable"/>
+        <method signature="TextField.TF05_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:5, instance:com.demoapp.testScripts.TextField@291caca8]" name="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip" class="com.demoapp.testScripts.TextField"/>
+        <method signature="WebTable.WT005_Verify_Item_Price_in_Table()[pri:5, instance:com.demoapp.testScripts.WebTable@385e9564]" name="WT005_Verify_Item_Price_in_Table" class="com.demoapp.testScripts.WebTable"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-08-31T17:21:19 IST" name="Default test" finished-at="2026-08-31T17:22:17 IST" duration-ms="57822">
-      <class name="com.demoapp.testScripts.WebTable">
-        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:21:17 IST" name="connectDatabase" finished-at="2026-08-31T17:21:19 IST" duration-ms="2140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:21:19 IST" name="setUp" finished-at="2026-08-31T17:21:37 IST" duration-ms="18424" status="PASS">
+    <test started-at="2026-09-07T19:01:52 IST" name="Regression Tests" finished-at="2026-09-07T19:06:44 IST" duration-ms="292142">
+      <class name="com.demoapp.testScripts.TextField">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:01:52 IST" name="setUp" finished-at="2026-09-07T19:02:25 IST" duration-ms="33174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:21:37 IST" name="navigateToURL" finished-at="2026-08-31T17:22:05 IST" duration-ms="28071" status="PASS">
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:02:25 IST" name="navigateToURL" finished-at="2026-09-07T19:02:36 IST" duration-ms="10621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToURL -->
-        <test-method signature="WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:22:05 IST" name="WT006_Verify_Dynamic_Item_Price_in_Table" finished-at="2026-08-31T17:22:15 IST" duration-ms="9097" status="PASS">
+        <test-method signature="TF01_Verify_Registration_Of_New_User()[pri:1, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:02:36 IST" name="TF01_Verify_Registration_Of_New_User" finished-at="2026-09-07T19:03:38 IST" duration-ms="61693" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WT006_Verify_Dynamic_Item_Price_in_Table -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:22:15 IST" name="tearDown" finished-at="2026-08-31T17:22:17 IST" duration-ms="2032" status="PASS">
+        </test-method> <!-- TF01_Verify_Registration_Of_New_User -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:03:38 IST" name="navigateToURL" finished-at="2026-09-07T19:03:38 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF02_Verify_Login_With_Valid_Credentials()[pri:2, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:03:38 IST" name="TF02_Verify_Login_With_Valid_Credentials" finished-at="2026-09-07T19:04:38 IST" duration-ms="60172" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//article[@class='form_content absolute left-[16.2%] bg-[#e3e8e7] top-[1.3%] ml-[1.5%] h-[72.5%] w-[64.5%] flex gap-3']//div[@class='go2072408551']"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [735c5e219e6941ef9307fbe96d310fd7, findElement {using=xpath, value=//article[@class='form_content absolute left-[16.2%] bg-[#e3e8e7] top-[1.3%] ml-[1.5%] h-[72.5%] w-[64.5%] flex gap-3']//div[@class='go2072408551']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SANJAY~1.UGH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53080}, goog:processID: 32764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53080/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 735c5e219e6941ef9307fbe96d310fd7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//article[@class='form_content absolute left-[16.2%] bg-[#e3e8e7] top-[1.3%] ml-[1.5%] h-[72.5%] w-[64.5%] flex gap-3']//div[@class='go2072408551']"}
+  (Session info: chrome=152.0.7977.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [735c5e219e6941ef9307fbe96d310fd7, findElement {using=xpath, value=//article[@class='form_content absolute left-[16.2%] bg-[#e3e8e7] top-[1.3%] ml-[1.5%] h-[72.5%] w-[64.5%] flex gap-3']//div[@class='go2072408551']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.65, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\SANJAY~1.UGH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53080}, goog:processID: 32764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53080/devtoo..., se:cdpVersion: 152.0.7977.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 735c5e219e6941ef9307fbe96d310fd7
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$0(WebDriverDecorator.java:416)
+at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$fG7cGDBU.findElement(Unknown Source)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy56.isDisplayed(Unknown Source)
+at com.demoapp.testScripts.TextField.TF02_Verify_Login_With_Valid_Credentials(TextField.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF02_Verify_Login_With_Valid_Credentials -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:04:39 IST" name="navigateToURL" finished-at="2026-09-07T19:04:40 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF03_Verify_Login_With_Invalid_Credentials()[pri:3, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:04:40 IST" name="TF03_Verify_Login_With_Invalid_Credentials" finished-at="2026-09-07T19:05:08 IST" duration-ms="28422" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Invalid Password Should Not Be Accepted. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Invalid Password Should Not Be Accepted. expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.demoapp.testScripts.TextField.TF03_Verify_Login_With_Invalid_Credentials(TextField.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF03_Verify_Login_With_Invalid_Credentials -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:09 IST" name="navigateToURL" finished-at="2026-09-07T19:05:09 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders()[pri:4, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:09 IST" name="TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders" finished-at="2026-09-07T19:05:36 IST" duration-ms="27139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF04_Verify_Login_With_Valid_Credentials_WithOut_Placeholders -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:36 IST" name="navigateToURL" finished-at="2026-09-07T19:05:37 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:5, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:37 IST" name="TF05_Verify_Login_With_Valid_Credentials_With_ToolTip" finished-at="2026-09-07T19:05:43 IST" duration-ms="6223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF05_Verify_Login_With_Valid_Credentials_With_ToolTip -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:43 IST" name="navigateToURL" finished-at="2026-09-07T19:05:43 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF06_Verify_Login_With_Valid_Credentials_With_ToolTip()[pri:6, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:05:43 IST" name="TF06_Verify_Login_With_Valid_Credentials_With_ToolTip" finished-at="2026-09-07T19:06:02 IST" duration-ms="18852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF06_Verify_Login_With_Valid_Credentials_With_ToolTip -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:06:02 IST" name="navigateToURL" finished-at="2026-09-07T19:06:02 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="TF07_Verify_SQLInjection_In_Name_Field()[pri:7, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:06:02 IST" name="TF07_Verify_SQLInjection_In_Name_Field" finished-at="2026-09-07T19:06:12 IST" duration-ms="9994" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Registration should not succeed with SQL Injection. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Registration should not succeed with SQL Injection. expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.demoapp.testScripts.TextField.TF07_Verify_SQLInjection_In_Name_Field(TextField.java:160)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TF07_Verify_SQLInjection_In_Name_Field -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.TextField@291caca8]" started-at="2026-09-07T19:06:13 IST" name="tearDown" finished-at="2026-09-07T19:06:44 IST" duration-ms="31065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.demoapp.testScripts.WebTable@510f3d34]" started-at="2026-08-31T17:22:18 IST" name="closeDatabase" finished-at="2026-08-31T17:22:18 IST" duration-ms="2" status="PASS">
+      </class> <!-- com.demoapp.testScripts.TextField -->
+      <class name="com.demoapp.testScripts.SlideBar">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:01:52 IST" name="setUp" finished-at="2026-09-07T19:02:30 IST" duration-ms="38362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:02:30 IST" name="navigateToURL" finished-at="2026-09-07T19:02:43 IST" duration-ms="12718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="SB01_Move_Slidebar_Using_Actions_Class()[pri:1, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:02:43 IST" name="SB01_Move_Slidebar_Using_Actions_Class" finished-at="2026-09-07T19:03:02 IST" duration-ms="18992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SB01_Move_Slidebar_Using_Actions_Class -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:03:02 IST" name="navigateToURL" finished-at="2026-09-07T19:03:03 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="SB02_Move_Slidebar_Using_Click_and_Hold()[pri:2, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:03:03 IST" name="SB02_Move_Slidebar_Using_Click_and_Hold" finished-at="2026-09-07T19:03:13 IST" duration-ms="10267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SB02_Move_Slidebar_Using_Click_and_Hold -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:03:13 IST" name="navigateToURL" finished-at="2026-09-07T19:03:14 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="SB03_Move_Slidebar_Using_Keyboard_Keys()[pri:3, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:03:14 IST" name="SB03_Move_Slidebar_Using_Keyboard_Keys" finished-at="2026-09-07T19:03:37 IST" duration-ms="23105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SB03_Move_Slidebar_Using_Keyboard_Keys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.SlideBar@399c4be1]" started-at="2026-09-07T19:03:37 IST" name="tearDown" finished-at="2026-09-07T19:04:08 IST" duration-ms="31289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoapp.testScripts.SlideBar -->
+      <class name="com.demoapp.testScripts.PopUps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:01:52 IST" name="setUp" finished-at="2026-09-07T19:02:25 IST" duration-ms="33195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:02:25 IST" name="navigateToURL" finished-at="2026-09-07T19:02:37 IST" duration-ms="11985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="PO001_Verify_JavaScript_Popup_Alert_For_Item_Deletion()[pri:1, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:02:37 IST" name="PO001_Verify_JavaScript_Popup_Alert_For_Item_Deletion" finished-at="2026-09-07T19:03:31 IST" duration-ms="53204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PO001_Verify_JavaScript_Popup_Alert_For_Item_Deletion -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:03:31 IST" name="navigateToURL" finished-at="2026-09-07T19:03:31 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="PO002_Verify_Item_Deletion()[pri:2, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:03:31 IST" name="PO002_Verify_Item_Deletion" finished-at="2026-09-07T19:03:51 IST" duration-ms="20132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PO002_Verify_Item_Deletion -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:03:51 IST" name="navigateToURL" finished-at="2026-09-07T19:03:51 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="PO003_Handling_of_Prompt_Popup_for_Item_Deletion()[pri:3, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:03:51 IST" name="PO003_Handling_of_Prompt_Popup_for_Item_Deletion" finished-at="2026-09-07T19:04:05 IST" duration-ms="13907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PO003_Handling_of_Prompt_Popup_for_Item_Deletion -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:04:05 IST" name="navigateToURL" finished-at="2026-09-07T19:04:06 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="PO004_Handling_of_Hidden_Division_Popup()[pri:4, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:04:06 IST" name="PO004_Handling_of_Hidden_Division_Popup" finished-at="2026-09-07T19:04:10 IST" duration-ms="3719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PO004_Handling_of_Hidden_Division_Popup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.PopUps@45b4c3a9]" started-at="2026-09-07T19:04:10 IST" name="tearDown" finished-at="2026-09-07T19:04:41 IST" duration-ms="31189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoapp.testScripts.PopUps -->
+      <class name="com.demoapp.testScripts.WebTable">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:08 IST" name="setUp" finished-at="2026-09-07T19:04:18 IST" duration-ms="9991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:18 IST" name="navigateToURL" finished-at="2026-09-07T19:04:21 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT001_Verify_WebTable_is_displayed()[pri:1, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:21 IST" name="WT001_Verify_WebTable_is_displayed" finished-at="2026-09-07T19:04:30 IST" duration-ms="8638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT001_Verify_WebTable_is_displayed -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:30 IST" name="navigateToURL" finished-at="2026-09-07T19:04:30 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT002_Verify_total_number_of_rows()[pri:2, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:30 IST" name="WT002_Verify_total_number_of_rows" finished-at="2026-09-07T19:04:34 IST" duration-ms="3990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT002_Verify_total_number_of_rows -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:34 IST" name="navigateToURL" finished-at="2026-09-07T19:04:34 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT003_Verify_total_number_of_columns()[pri:3, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:34 IST" name="WT003_Verify_total_number_of_columns" finished-at="2026-09-07T19:04:38 IST" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT003_Verify_total_number_of_columns -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:38 IST" name="navigateToURL" finished-at="2026-09-07T19:04:38 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT004_Verify_data_in_a_specific_row()[pri:4, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:38 IST" name="WT004_Verify_data_in_a_specific_row" finished-at="2026-09-07T19:04:53 IST" duration-ms="14987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT004_Verify_data_in_a_specific_row -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:53 IST" name="navigateToURL" finished-at="2026-09-07T19:04:54 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT005_Verify_Item_Price_in_Table()[pri:5, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:04:54 IST" name="WT005_Verify_Item_Price_in_Table" finished-at="2026-09-07T19:05:05 IST" duration-ms="11560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT005_Verify_Item_Price_in_Table -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:05 IST" name="navigateToURL" finished-at="2026-09-07T19:05:06 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT006_Verify_Dynamic_Item_Price_in_Table()[pri:6, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:06 IST" name="WT006_Verify_Dynamic_Item_Price_in_Table" finished-at="2026-09-07T19:05:19 IST" duration-ms="13562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT006_Verify_Dynamic_Item_Price_in_Table -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:19 IST" name="navigateToURL" finished-at="2026-09-07T19:05:20 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT007_Verify_AddToFaverate_Functionality()[pri:7, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:20 IST" name="WT007_Verify_AddToFaverate_Functionality" finished-at="2026-09-07T19:05:41 IST" duration-ms="20964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT007_Verify_AddToFaverate_Functionality -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:41 IST" name="navigateToURL" finished-at="2026-09-07T19:05:41 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="WT008_Verify_AddToFaverate_Functionality()[pri:8, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:05:41 IST" name="WT008_Verify_AddToFaverate_Functionality" finished-at="2026-09-07T19:06:03 IST" duration-ms="21952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WT008_Verify_AddToFaverate_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.WebTable@385e9564]" started-at="2026-09-07T19:06:03 IST" name="tearDown" finished-at="2026-09-07T19:06:34 IST" duration-ms="31098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoapp.testScripts.WebTable -->
+      <class name="com.demoapp.testScripts.Dropdown">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:01:49 IST" name="connectDatabase" finished-at="2026-09-07T19:01:52 IST" duration-ms="2455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDatabase -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:01:52 IST" name="setUp" finished-at="2026-09-07T19:02:27 IST" duration-ms="35770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:02:27 IST" name="navigateToURL" finished-at="2026-09-07T19:02:45 IST" duration-ms="17391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="DP01_Select_Values_From_Single_Select_Dropdown()[pri:1, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:02:45 IST" name="DP01_Select_Values_From_Single_Select_Dropdown" finished-at="2026-09-07T19:04:00 IST" duration-ms="75572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DP01_Select_Values_From_Single_Select_Dropdown -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:04:00 IST" name="navigateToURL" finished-at="2026-09-07T19:04:01 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="DP02_Select_Values_From_Multi_Select_Dropdown()[pri:2, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:04:01 IST" name="DP02_Select_Values_From_Multi_Select_Dropdown" finished-at="2026-09-07T19:04:40 IST" duration-ms="39338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DP02_Select_Values_From_Multi_Select_Dropdown -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:04:40 IST" name="navigateToURL" finished-at="2026-09-07T19:04:41 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="DP03_Select_Values_By_Searching_In_Dropdown()[pri:3, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:04:41 IST" name="DP03_Select_Values_By_Searching_In_Dropdown" finished-at="2026-09-07T19:05:37 IST" duration-ms="56330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DP03_Select_Values_By_Searching_In_Dropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:05:37 IST" name="tearDown" finished-at="2026-09-07T19:06:08 IST" duration-ms="31125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:com.demoapp.testScripts.Dropdown@5aebe890]" started-at="2026-09-07T19:06:45 IST" name="closeDatabase" finished-at="2026-09-07T19:06:45 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDatabase -->
-      </class> <!-- com.demoapp.testScripts.WebTable -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.demoapp.testScripts.Dropdown -->
+      <class name="com.demoapp.testScripts.Image">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:01:52 IST" name="setUp" finished-at="2026-09-07T19:02:25 IST" duration-ms="33181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:02:25 IST" name="navigateToURL" finished-at="2026-09-07T19:02:36 IST" duration-ms="10738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="IM01_Verify_width_and_height_of_an_image()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:02:36 IST" name="IM01_Verify_width_and_height_of_an_image" finished-at="2026-09-07T19:03:05 IST" duration-ms="28559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IM01_Verify_width_and_height_of_an_image -->
+        <test-method is-config="true" signature="navigateToURL()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:03:05 IST" name="navigateToURL" finished-at="2026-09-07T19:03:06 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method signature="IM02_Verify_Weather_Image_Is_Clickable()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:03:06 IST" name="IM02_Verify_Weather_Image_Is_Clickable" finished-at="2026-09-07T19:03:53 IST" duration-ms="47541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IM02_Verify_Weather_Image_Is_Clickable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoapp.testScripts.Image@6a2f6f80]" started-at="2026-09-07T19:03:53 IST" name="tearDown" finished-at="2026-09-07T19:04:24 IST" duration-ms="31217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoapp.testScripts.Image -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Parallel Regression Suite -->
 </testng-results>

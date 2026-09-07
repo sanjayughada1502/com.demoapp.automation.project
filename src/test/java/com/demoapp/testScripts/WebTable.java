@@ -3,8 +3,10 @@ package com.demoapp.testScripts;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -258,6 +260,77 @@ public class WebTable extends TestBase {
 			}
 		}
 		asserts.assertTrue(priceChanged, "None of the item prices changed within 5 seconds");
+		asserts.assertAll();
+	}
+
+	@Test(priority = 7, groups = { "Functional" })
+	public void WT007_Verify_AddToFaverate_Functionality() {
+		// Item Should be added to Faverate List with Selected QTY.
+		DemoApp_HomePage home = new DemoApp_HomePage();
+		home.getWebTable_Menu().click();
+		ExtentTestManager.getTest().info("Clicked on WebTable Menu");
+		WebTable_Page page = new WebTable_Page();
+		page.getDynamicWebTable().click();
+		ExtentTestManager.getTest().info("Clicked on Dynamic Web Table Option Menu");
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOf(page.getFaverate_Items_Tab()));
+		SoftAssert asserts = new SoftAssert();
+		ExtentTestManager.getTest().info("Clicling on Add to Faverate Button");
+		page.getAdd_to_faverate_btn().click();
+		Select itemName = new Select(page.getEdit_item_name_dpdwn());
+		itemName.selectByValue("Jackets");
+		Select qty = new Select(page.getEdit_quantity_dpdwn());
+		qty.selectByValue("5");
+		String ratings = page.getEdit_ratings_disabled_tbx().getText();
+		String discount = page.getEdit_discount_disabled_tbx().getText();
+		String actualPrice = page.getEdit_Actial_Price_disabled_tbx().getText();
+		String discountPrice = page.getEdit_discount_price_disabled_tbx().getText();
+		page.getAdd_btn().click();
+		wait.until(ExpectedConditions
+				.visibilityOf(DriverFactory.getDriver().findElement(By.xpath("//body/div[@id='root']"))));
+		String bodyTexts = DriverFactory.getDriver().findElement(By.xpath("//body/div[@id='root']")).getText();
+		asserts.assertTrue(bodyTexts.contains("Jackets added to favourite!"));
+	}
+
+	@Test(priority = 8, groups = { "Functional" })
+	public void WT008_Verify_AddToFaverate_Functionality() {
+		// Item Should be added to Faverate List with Selected QTY.
+		DemoApp_HomePage home = new DemoApp_HomePage();
+		home.getWebTable_Menu().click();
+		ExtentTestManager.getTest().info("Clicked on WebTable Menu");
+		WebTable_Page page = new WebTable_Page();
+		page.getDynamicWebTable().click();
+		ExtentTestManager.getTest().info("Clicked on Dynamic Web Table Option Menu");
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOf(page.getFaverate_Items_Tab()));
+		SoftAssert asserts = new SoftAssert();
+		ExtentTestManager.getTest().info("Clicking on Add to Faverate Button");
+		page.getAdd_to_faverate_btn().click();
+		Select itemName = new Select(page.getEdit_item_name_dpdwn());
+		ExtentTestManager.getTest().info("Selecting Item: Jackets");
+		itemName.selectByValue("Jackets");
+		ExtentTestManager.getTest().info("Selecting QTY of 5");
+		Select qty = new Select(page.getEdit_quantity_dpdwn());
+		qty.selectByValue("5");
+		ExtentTestManager.getTest()
+				.info("Collecting Ratings, Discount, Actual Price and Discounted Price Texts from Disabled Fields");
+		String ratings = page.getEdit_ratings_disabled_tbx().getText();
+		String discount = page.getEdit_discount_disabled_tbx().getText();
+		String actualPrice = page.getEdit_Actial_Price_disabled_tbx().getText();
+		String discountPrice = page.getEdit_discount_price_disabled_tbx().getText();
+		page.getAdd_btn().click();
+		wait.until(ExpectedConditions
+				.visibilityOf(DriverFactory.getDriver().findElement(By.xpath("//body/div[@id='root']"))));
+		String bodyTexts = DriverFactory.getDriver().findElement(By.xpath("//body/div[@id='root']")).getText();
+		asserts.assertTrue(bodyTexts.contains("Jackets added to favourite!"));
+		boolean isJacketPresent = false;
+		List<String> rows_data = page.getFavouriteItemsTables_rows_Data();
+		for (int i = 0; i < rows_data.size(); i++) {
+			if (rows_data.get(i).contains("Jackets")) {
+				isJacketPresent = true;
+			}
+		}
+		asserts.assertTrue(isJacketPresent);
 		asserts.assertAll();
 	}
 }

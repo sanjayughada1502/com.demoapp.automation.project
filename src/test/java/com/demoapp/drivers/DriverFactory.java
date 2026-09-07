@@ -35,7 +35,8 @@ public class DriverFactory {
 
 	/**
 	 * Initialize Browser
-	 * @return 
+	 * 
+	 * @return
 	 */
 	public static WebDriver initDriver(String browser) {
 
@@ -53,7 +54,6 @@ public class DriverFactory {
 
 			webDriver = new ChromeDriver(options);
 			break;
-			
 
 		case "chrome-headless":
 
@@ -92,18 +92,16 @@ public class DriverFactory {
 //		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 //		driver.set(webDriver);
 //		return webDriver;
-		
+
 		webDriver.manage().window().maximize();
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		WebDriver decoratedDriver =
-		        new EventFiringDecorator(new HighlightListener(webDriver))
-		                .decorate(webDriver);
+		WebDriver decoratedDriver = new EventFiringDecorator(new HighlightListener(webDriver)).decorate(webDriver);
 
 		driver.set(decoratedDriver);
 
 		return decoratedDriver;
-		
+
 	}
 
 	/**
