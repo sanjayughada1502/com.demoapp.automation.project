@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch Execution Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Batch Execution Suite(failed)">
+    <classes>
+      <class name="com.demoapp.testScripts.PopUps">
+        <methods>
+          <include name="connectDatabase"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="navigateToURL"/>
+          <include name="PO003_Handling_of_Prompt_Popup_for_Item_Deletion"/>
+          <include name="closeDatabase"/>
+        </methods>
+      </class> <!-- com.demoapp.testScripts.PopUps -->
+      <class name="com.demoapp.testScripts.TextField">
+        <methods>
+          <include name="tearDown"/>
+          <include name="connectDatabase"/>
+          <include name="setUp"/>
+          <include name="TF02_Verify_Login_With_Valid_Credentials"/>
+          <include name="navigateToURL"/>
+          <include name="TF07_Verify_SQLInjection_In_Name_Field"/>
+          <include name="TF03_Verify_Login_With_Invalid_Credentials"/>
+          <include name="closeDatabase"/>
+        </methods>
+      </class> <!-- com.demoapp.testScripts.TextField -->
+    </classes>
+  </test> <!-- Batch Execution Suite(failed) -->
+</suite> <!-- Failed suite [Batch Execution Suite] -->

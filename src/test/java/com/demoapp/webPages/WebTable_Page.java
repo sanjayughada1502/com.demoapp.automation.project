@@ -48,7 +48,7 @@ public class WebTable_Page {
 	@FindBy(xpath = "//th[normalize-space()='Price']")
 	private WebElement price_header;
 
-	//Favourite Items dynamic Price locators
+	// Favourite Items dynamic Price locators
 	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[1]/th/../td[4]")
 	private WebElement dynamic_Levis_Shirt_price_txt;
 	@FindBy(xpath = "//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr[2]/th/../td[4]")
@@ -59,13 +59,67 @@ public class WebTable_Page {
 	private WebElement dynamic_HP_Envy_price_txt;
 	@FindBy(xpath = "//section[contains(text(),'Favourite Items')]")
 	private WebElement Faverate_Items_Tab;
-	
+
+	@FindBy(xpath = "//button[text()='Add To Favourite']")
+	private WebElement add_to_faverate_btn;
+	@FindBy(id = "selection")
+	private WebElement edit_item_name_dpdwn;
+	@FindBy(name = "quantity")
+	private WebElement edit_quantity_dpdwn;
+	@FindBy(name = "ratings")
+	private WebElement edit_ratings_disabled_tbx;
+	@FindBy(name = "discount")
+	private WebElement edit_discount_disabled_tbx;
+	@FindBy(xpath = "(//input[@placeholder=\"500\"])[1]")
+	private WebElement edit_Actial_Price_disabled_tbx;
+	@FindBy(xpath = "(//input[@placeholder=\"500\"])[2]")
+	private WebElement edit_discount_price_disabled_tbx;
+
+	@FindBy(xpath = "//*[@id=\"modalButton\"]")
+	private WebElement add_btn;
+	@FindBy(id = "id=\"modalBtn")
+	private WebElement cancel_btn;
+
 	// getters
-	
-	
 
 	public WebDriver getPagedriver() {
 		return pagedriver;
+	}
+
+	public WebElement getAdd_btn() {
+		return add_btn;
+	}
+
+	public WebElement getCancel_btn() {
+		return cancel_btn;
+	}
+
+	public WebElement getAdd_to_faverate_btn() {
+		return add_to_faverate_btn;
+	}
+
+	public WebElement getEdit_item_name_dpdwn() {
+		return edit_item_name_dpdwn;
+	}
+
+	public WebElement getEdit_quantity_dpdwn() {
+		return edit_quantity_dpdwn;
+	}
+
+	public WebElement getEdit_ratings_disabled_tbx() {
+		return edit_ratings_disabled_tbx;
+	}
+
+	public WebElement getEdit_discount_disabled_tbx() {
+		return edit_discount_disabled_tbx;
+	}
+
+	public WebElement getEdit_Actial_Price_disabled_tbx() {
+		return edit_Actial_Price_disabled_tbx;
+	}
+
+	public WebElement getEdit_discount_price_disabled_tbx() {
+		return edit_discount_price_disabled_tbx;
 	}
 
 	public WebElement getFaverate_Items_Tab() {
@@ -119,8 +173,7 @@ public class WebTable_Page {
 	public WebElement getPrice_header() {
 		return price_header;
 	}
-	
-	
+
 	public WebElement getDynamic_Levis_Shirt_price_txt() {
 		return dynamic_Levis_Shirt_price_txt;
 	}
@@ -137,8 +190,6 @@ public class WebTable_Page {
 		return dynamic_HP_Envy_price_txt;
 	}
 
-	
-	
 	// Action Methods
 
 	public List<String> getPurchasedItemsTables_headerNames() {
@@ -193,6 +244,22 @@ public class WebTable_Page {
 
 		}
 		return prices;
+	}
+
+	/**
+	 * This Method will return the String data from each row of Favourite Table
+	 * @return
+	 */
+	public List<String> getFavouriteItemsTables_rows_Data() {
+		List<String> list = new ArrayList<String>();
+
+		List<WebElement> rows = DriverFactory.getDriver()
+				.findElements(By.xpath("//*[@id=\"demoUI\"]/main/section/article[1]/aside/div/div[2]/table/tbody/tr"));
+		for (WebElement row : rows) {
+			String data = row.getText();
+			list.add(data);
+		}
+		return list;
 	}
 
 }

@@ -1,60 +1,576 @@
-2026-08-31 16:17:04 [main] INFO 
+2026-09-07 16:17:21 [main] INFO 
 			com.demoapp.testScripts.WebTable - Connecting to Database....
-2026-08-31 16:17:04 [main] INFO 
+2026-09-07 16:17:21 [main] INFO 
 			com.demoapp.testScripts.WebTable - Database Connected Successfully
-2026-08-31 16:17:05 [main] INFO 
+2026-09-07 16:17:22 [main] INFO 
 			com.demoapp.testScripts.WebTable - Getting browser name from Properties files
-2026-08-31 16:17:31 [main] INFO 
+2026-09-07 16:17:43 [main] INFO 
 			com.demoapp.testScripts.WebTable - Maximizing Browser window
-2026-08-31 16:17:32 [main] INFO 
+2026-09-07 16:17:43 [main] INFO 
 			com.demoapp.testScripts.WebTable - getting url from properties
-2026-08-31 16:17:32 [main] INFO 
+2026-09-07 16:17:43 [main] INFO 
 			com.demoapp.testScripts.WebTable - Navigating to URL
-2026-08-31 16:17:39 [main] INFO 
+2026-09-07 16:18:03 [main] INFO 
 			com.demoapp.testScripts.WebTable - Logging out from UFO Framez Site
-2026-08-31 16:17:39 [main] INFO 
+2026-09-07 16:18:03 [main] INFO 
 			com.demoapp.testScripts.WebTable - closing Chrome browser
-2026-08-31 16:17:44 [main] INFO 
+2026-09-07 16:18:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - Closing Database Connection....
-2026-08-31 16:17:44 [main] INFO 
+2026-09-07 16:18:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - Database Connection Closed
-2026-08-31 16:23:03 [main] INFO 
+2026-09-07 16:18:48 [main] INFO 
 			com.demoapp.testScripts.WebTable - Connecting to Database....
-2026-08-31 16:23:03 [main] INFO 
+2026-09-07 16:18:48 [main] INFO 
 			com.demoapp.testScripts.WebTable - Database Connected Successfully
-2026-08-31 16:23:03 [main] INFO 
+2026-09-07 16:18:49 [main] INFO 
 			com.demoapp.testScripts.WebTable - Getting browser name from Properties files
-2026-08-31 16:23:12 [main] INFO 
+2026-09-07 16:19:05 [main] INFO 
 			com.demoapp.testScripts.WebTable - Maximizing Browser window
-2026-08-31 16:23:13 [main] INFO 
+2026-09-07 16:19:05 [main] INFO 
 			com.demoapp.testScripts.WebTable - getting url from properties
-2026-08-31 16:23:13 [main] INFO 
+2026-09-07 16:19:05 [main] INFO 
 			com.demoapp.testScripts.WebTable - Navigating to URL
-2026-08-31 16:23:20 [main] INFO 
-			com.demoapp.testScripts.WebTable - Logging out from UFO Framez Site
-2026-08-31 16:23:20 [main] INFO 
-			com.demoapp.testScripts.WebTable - closing Chrome browser
-2026-08-31 16:23:24 [main] INFO 
-			com.demoapp.testScripts.WebTable - Closing Database Connection....
-2026-08-31 16:23:24 [main] INFO 
-			com.demoapp.testScripts.WebTable - Database Connection Closed
-2026-08-31 17:21:19 [main] INFO 
-			com.demoapp.testScripts.WebTable - Connecting to Database....
-2026-08-31 17:21:19 [main] INFO 
-			com.demoapp.testScripts.WebTable - Database Connected Successfully
-2026-08-31 17:21:19 [main] INFO 
-			com.demoapp.testScripts.WebTable - Getting browser name from Properties files
-2026-08-31 17:21:37 [main] INFO 
-			com.demoapp.testScripts.WebTable - Maximizing Browser window
-2026-08-31 17:21:37 [main] INFO 
+2026-09-07 16:19:13 [main] INFO 
+			com.demoapp.testScripts.WebTable - Header Name :ITEM NAME RATING QUANTITY DISCOUNT PRICE
+2026-09-07 16:19:13 [main] INFO 
+			com.demoapp.testScripts.WebTable - Validating weather Header is Blank
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Data : Levis Shirt 3.5 Star 2 23% 896
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Validating weather Row Data is Blank
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Data : SAMSUNG Galaxy 4.3 Star 5 30% 897
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Validating weather Row Data is Blank
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Data : APPLEIPhone 4.0 Star 7 23% 898
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Validating weather Row Data is Blank
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Data : HP Envy 4.5 Star 3 30% 899
+2026-09-07 16:19:14 [main] INFO 
+			com.demoapp.testScripts.WebTable - Validating weather Row Data is Blank
+2026-09-07 16:19:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - getting url from properties
-2026-08-31 17:21:37 [main] INFO 
+2026-09-07 16:19:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - Navigating to URL
-2026-08-31 17:22:15 [main] INFO 
+2026-09-07 16:19:19 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Count is :4
+2026-09-07 16:19:19 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:19:19 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:19:25 [main] INFO 
+			com.demoapp.testScripts.WebTable - Row Count is :5
+2026-09-07 16:19:26 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:19:26 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:19:36 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:19:36 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:19:41 [main] INFO 
+			com.demoapp.testScripts.WebTable - Fetching Expected Price from Excel Sheet
+2026-09-07 16:19:42 [main] INFO 
+			com.demoapp.testScripts.WebTable - Fetching Expected Price from Excel Sheet
+2026-09-07 16:19:42 [main] INFO 
+			com.demoapp.testScripts.WebTable - Fetching Expected Price from Excel Sheet
+2026-09-07 16:19:42 [main] INFO 
+			com.demoapp.testScripts.WebTable - Fetching Expected Price from Excel Sheet
+2026-09-07 16:19:42 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:19:42 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:19:50 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:19:50 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:20:02 [main] INFO 
+			com.demoapp.testScripts.WebTable - getting url from properties
+2026-09-07 16:20:02 [main] INFO 
+			com.demoapp.testScripts.WebTable - Navigating to URL
+2026-09-07 16:20:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - Logging out from UFO Framez Site
-2026-08-31 17:22:15 [main] INFO 
+2026-09-07 16:20:14 [main] INFO 
 			com.demoapp.testScripts.WebTable - closing Chrome browser
-2026-08-31 17:22:18 [main] INFO 
+2026-09-07 16:20:46 [main] INFO 
 			com.demoapp.testScripts.WebTable - Closing Database Connection....
-2026-08-31 17:22:18 [main] INFO 
+2026-09-07 16:20:46 [main] INFO 
 			com.demoapp.testScripts.WebTable - Database Connection Closed
+2026-09-07 17:06:55 [main] INFO 
+			com.demoapp.testScripts.PopUps - Connecting to Database....
+2026-09-07 17:06:55 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connected Successfully
+2026-09-07 17:06:55 [main] INFO 
+			com.demoapp.testScripts.PopUps - Getting browser name from Properties files
+2026-09-07 17:07:16 [main] INFO 
+			com.demoapp.testScripts.PopUps - Maximizing Browser window
+2026-09-07 17:07:16 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 17:07:16 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 17:07:27 [main] INFO 
+			com.demoapp.testScripts.PopUps - Logging out from UFO Framez Site
+2026-09-07 17:07:27 [main] INFO 
+			com.demoapp.testScripts.PopUps - closing Chrome browser
+2026-09-07 17:07:37 [main] INFO 
+			com.demoapp.testScripts.PopUps - Closing Database Connection....
+2026-09-07 17:07:37 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connection Closed
+2026-09-07 17:22:01 [main] INFO 
+			com.demoapp.testScripts.PopUps - Connecting to Database....
+2026-09-07 17:22:01 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connected Successfully
+2026-09-07 17:22:01 [main] INFO 
+			com.demoapp.testScripts.PopUps - Getting browser name from Properties files
+2026-09-07 17:22:21 [main] INFO 
+			com.demoapp.testScripts.PopUps - Maximizing Browser window
+2026-09-07 17:22:22 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 17:22:22 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 17:22:32 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 17:22:32 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 17:22:35 [main] INFO 
+			com.demoapp.testScripts.PopUps - Closing Database Connection....
+2026-09-07 17:22:35 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connection Closed
+2026-09-07 17:24:19 [main] INFO 
+			com.demoapp.testScripts.PopUps - Connecting to Database....
+2026-09-07 17:24:19 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connected Successfully
+2026-09-07 17:24:19 [main] INFO 
+			com.demoapp.testScripts.PopUps - Getting browser name from Properties files
+2026-09-07 17:24:36 [main] INFO 
+			com.demoapp.testScripts.PopUps - Maximizing Browser window
+2026-09-07 17:24:36 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 17:24:36 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 17:24:44 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 17:24:44 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 17:24:49 [main] INFO 
+			com.demoapp.testScripts.PopUps - Logging out from UFO Framez Site
+2026-09-07 17:24:49 [main] INFO 
+			com.demoapp.testScripts.PopUps - closing Chrome browser
+2026-09-07 17:24:54 [main] INFO 
+			com.demoapp.testScripts.PopUps - Closing Database Connection....
+2026-09-07 17:24:54 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connection Closed
+2026-09-07 18:17:32 [main] INFO 
+			com.demoapp.testScripts.PopUps - Connecting to Database....
+2026-09-07 18:17:32 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connected Successfully
+2026-09-07 18:17:32 [main] INFO 
+			com.demoapp.testScripts.PopUps - Getting browser name from Properties files
+2026-09-07 18:17:48 [main] INFO 
+			com.demoapp.testScripts.PopUps - Maximizing Browser window
+2026-09-07 18:17:48 [main] INFO 
+			com.demoapp.testScripts.PopUps - getting url from properties
+2026-09-07 18:17:48 [main] INFO 
+			com.demoapp.testScripts.PopUps - Navigating to URL
+2026-09-07 18:17:58 [main] INFO 
+			com.demoapp.testScripts.PopUps - Logging out from UFO Framez Site
+2026-09-07 18:17:58 [main] INFO 
+			com.demoapp.testScripts.PopUps - closing Chrome browser
+2026-09-07 18:18:05 [main] INFO 
+			com.demoapp.testScripts.PopUps - Closing Database Connection....
+2026-09-07 18:18:05 [main] INFO 
+			com.demoapp.testScripts.PopUps - Database Connection Closed
+2026-09-07 18:32:28 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Connecting to Database....
+2026-09-07 18:32:28 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Database Connected Successfully
+2026-09-07 18:32:28 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:32:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:32:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:32:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:33:19 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:33:19 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:33:30 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:33:30 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:33:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:33:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:33:53 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:33:59 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:33:59 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:33:59 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:04 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:34:04 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:15 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:34:15 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:34:18 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:34:25 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:34:25 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:34:25 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:35 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:34:35 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:39 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:34:39 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:45 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:34:45 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:34:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:34:49 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:34:55 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:35:01 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:35:02 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:35:02 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:35:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:35:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:35:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:35:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:35:17 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:35:17 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:35:31 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:35:37 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:35:37 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:35:37 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:35:52 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:35:52 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:36:36 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:36:36 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:36:50 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:36:50 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:37:01 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:37:01 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:37:04 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:37:04 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:37:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:37:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:37:19 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:37:19 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:37:50 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 18:38:00 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 18:38:00 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:00 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Header Name :ITEM NAME RATING QUANTITY DISCOUNT PRICE
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Header is Blank
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : Levis Shirt 3.5 Star 2 23% 896
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : SAMSUNG Galaxy 4.3 Star 5 30% 897
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : APPLEIPhone 4.0 Star 7 23% 898
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : HP Envy 4.5 Star 3 30% 899
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:09 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Count is :4
+2026-09-07 18:38:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:12 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:15 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Row Count is :5
+2026-09-07 18:38:15 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:15 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:20 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:20 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:23 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:31 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:31 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:48 [main] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 18:38:48 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 18:38:55 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 18:38:55 [main] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 18:39:21 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Closing Database Connection....
+2026-09-07 18:39:21 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Database Connection Closed
+2026-09-07 19:01:52 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Connecting to Database....
+2026-09-07 19:01:52 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Database Connected Successfully
+2026-09-07 19:01:52 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:01:52 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:01:52 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:01:52 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:01:52 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:02:24 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:02:24 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:02:25 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:02:27 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:02:28 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:02:28 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:02:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:02:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:02:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:02 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:02 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:05 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:05 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:13 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:13 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:31 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:31 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:37 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:03:37 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:03:38 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:38 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:51 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:03:51 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:03:53 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:03:53 [TestNG-test-Regression Tests-1] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:04:00 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:00 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:05 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:05 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:08 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Getting browser name from Properties files
+2026-09-07 19:04:10 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:04:10 [TestNG-test-Regression Tests-3] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:04:18 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Maximizing Browser window
+2026-09-07 19:04:18 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:18 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:29 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Header Name :ITEM NAME RATING QUANTITY DISCOUNT PRICE
+2026-09-07 19:04:29 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Header is Blank
+2026-09-07 19:04:29 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : Levis Shirt 3.5 Star 2 23% 896
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : SAMSUNG Galaxy 4.3 Star 5 30% 897
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : APPLEIPhone 4.0 Star 7 23% 898
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Data : HP Envy 4.5 Star 3 30% 899
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Validating weather Row Data is Blank
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:30 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:34 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Count is :4
+2026-09-07 19:04:34 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:34 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:38 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Row Count is :5
+2026-09-07 19:04:38 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:38 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:39 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:39 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:40 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:40 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:04:53 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:04:53 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:04 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 19:05:05 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 19:05:05 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 19:05:05 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Fetching Expected Price from Excel Sheet
+2026-09-07 19:05:05 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:05 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:09 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:09 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:19 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:19 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:36 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:36 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:37 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:05:37 [TestNG-test-Regression Tests-2] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:05:41 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:41 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:05:43 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:05:43 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:06:02 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - getting url from properties
+2026-09-07 19:06:02 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Navigating to URL
+2026-09-07 19:06:03 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:06:03 [TestNG-test-Regression Tests-4] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:06:13 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - Logging out from UFO Framez Site
+2026-09-07 19:06:13 [TestNG-test-Regression Tests-5] INFO 
+			com.demoapp.testScripts.Dropdown - closing Chrome browser
+2026-09-07 19:06:45 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Closing Database Connection....
+2026-09-07 19:06:45 [main] INFO 
+			com.demoapp.testScripts.Dropdown - Database Connection Closed
